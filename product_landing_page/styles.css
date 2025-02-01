@@ -1,0 +1,24 @@
+.nav-bar{
+    display:flex;
+    justify-content: flex-end;
+  
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    img{
+      width:250px;
+    }
+  }
+  #header-img{
+    width:300px;
+    
+  }
+  #nav-bar{
+    position: fixed;
+  }
+  header{
+    display: flex;
+  }
+  

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf=8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="main">
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This is a basic form to collect your data.</p>
+    <form id="survey-form">
+      <label for="name-label" id="name-label">Name <input id="name" type="text" placeholder="Enter your Name" required class="input"/></label>
+      <label for="email-label" id="email-label">Email <input id="email" type="email"placeholder="Enter your Email" required class="input"/></label>
+      <label for="number-label" id="number-label" >Number <input id="number" type="number" min=18 max=128 placeholder="Enter your Number" class="input"/></label>
+      <select id="dropdown">
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>
+      <label><input type="radio" name="gender" value="gender"/> Male</label>
+      <label><input type="radio" name="gender" value="gender"/> Female</label>
+      <label><input type="checkbox" value="skill" /> HTML</label>
+      <label><input type="checkbox" value="skill" /> CSS</label>
+      <label><input type="checkbox" value="skill" /> JAVASCRIPT</label>
+      <label><input type="checkbox" value="skill" /> JAVA</label>
+      <label><input type="checkbox" value="skill" /> SQL</label>
+      <textarea></textarea>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+@media only screen{
+}
+*{
+box-sizing: border-box;
+background-color: lightblue;
+}
+#navbar{
+height: 100%;
+width: 270px;
+border-right: 3px solid;
+}
+nav header{
+font-size: 1.8rem;
+font-weight: bold;
+}
+#navbar a{
+text-decoration: none;
+cursor:pointer;
+}
+main{
+position: absolute;
+margin-left: 300px;
+top:0;
+}
+#main-doc header{
+font-size: 2rem;
+background-color: azure;
+padding-top: 10px;
+}
+code{
+background-color: grey;
+padding: 10px;
+}
+main{
+border-top: 4px double;
+border-bottom: 4px double;
+}
+header,p{
+font-family: sanis-serif;
+}
